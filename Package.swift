@@ -4,21 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftEasyUI",
+    name: "SwiftEasyUIKit",
+    platforms: [
+        .iOS(.v12)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SwiftEasyUI",
-            targets: ["SwiftEasyUI"]),
+            name: "SwiftEasyUIKit",
+            targets: ["SwiftEasyUIKit"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SwiftEasyUI"),
+            name: "SwiftEasyUIKit"),
         .testTarget(
-            name: "SwiftEasyUITests",
-            dependencies: ["SwiftEasyUI"]
+            name: "SwiftEasyUIKitTests",
+            dependencies: ["SwiftEasyUIKit"]
         ),
     ]
 )
