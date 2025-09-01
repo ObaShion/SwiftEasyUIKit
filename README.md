@@ -3,6 +3,8 @@ A UIKit library for creating a beautiful UI easier.
 
 # Features
 - NFView
+<img width="2420" height="1668" alt="image" src="https://github.com/user-attachments/assets/249a2223-9412-4623-843b-6aa6f597ef9e" />
+
 
 # Requirements
 - iOS 14.0+
