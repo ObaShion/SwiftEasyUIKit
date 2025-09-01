@@ -10,12 +10,21 @@ import UIKit
 public struct NFHeroHeaderItem {
     let title: String
     let image: UIImage
+    public init(title: String, image: UIImage) {
+        self.title = title
+        self.image = image
+    }
 }
 
 public struct NFCollectionItem {
     let title: String
     let description: String
     let image: UIImage
+    public init(title: String, description: String, image: UIImage) {
+        self.title = title
+        self.description = description
+        self.image = image
+    }
 }
 
 public protocol NFItemConfigurable {
